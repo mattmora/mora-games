@@ -1,0 +1,27 @@
+:root {
+    --background: floralwhite;
+    --text-primary: rgb(31, 27, 36);
+    --text-faded:  #a496ad;
+    --accent: darkorange;
+    --link: firebrick;
+  }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: calc(100vh - 16px);
+    font-size: 2.56rem;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: var(--text-primary);
+    background:  var(--background) url("./path.png");
+}
+
+h1 {    
+	font-size: 4em;
+}
+
+a {
+    color: var(--link);
+}
