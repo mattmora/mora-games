@@ -1,27 +1,37 @@
 :root {
-    --background: floralwhite;
-    --text-primary: rgb(31, 27, 36);
-    --text-faded:  #a496ad;
-    --accent: darkorange;
-    --link: firebrick;
-  }
+	--background: floralwhite;
+	--text-primary: rgb(31, 27, 36);
+	--text-faded: #a496ad;
+	--accent: darkorange;
+	--link: firebrick;
+}
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-    height: calc(100vh - 16px);
-    font-size: 2.56rem;
+	height: calc(100vh - 16px);
+	font-size: 1.6rem;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
-    color: var(--text-primary);
-    background:  var(--background) url("./path.png");
+	color: var(--text-primary);
+	background: var(--background) url('./path.png');
 }
 
-h1 {    
+h1 {
 	font-size: 4em;
 }
 
-a {
-    color: var(--link);
+a:link,
+a:visited {
+	color: var(--link);
+}
+
+a:hover,
+a:active {
+	color: var(--accent);
+}
+
+p {
+	margin: 0;
 }
